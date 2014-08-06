@@ -1,0 +1,51 @@
+{
+  "name": "fastbill-automatic",
+  "version": "0.0.4",
+  "description": "This module is an early implementation of some features of the fastbill-api.",
+  "keywords": [
+    "node",
+    "js",
+    "fastbill",
+    "automatic",
+    "api"
+  ],
+  "bugs": "https://github.com/paul-em/fastbill-automatic/issues",
+  "author": {
+    "name": "Paul Em",
+    "email": "paul3m@gmail.com",
+    "url": "https://github.com/paul-em"
+  },
+  "homepage": "https://github.com/paul-em/fastbill-automatic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-em/fastbill-automatic.git"
+  },
+  "main": "lib/fastbill.js",
+  "dependencies": {
+    "node-rest-client": "~1.0.0",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-node-inspector": "~0.1.1",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-concurrent": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-open": "~0.2.2",
+    "grunt-wait": "~0.1.0",
+    "expect.js": "~0.3.1"
+  },
+  "scripts": {
+    "start": "lib/fastbill.js",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
